@@ -1,0 +1,28 @@
+<!DOCTYPE HTML> 
+<html>
+     <head>
+        <title>Untitled Page</title>
+     </head>
+     <body>
+	 <p>Напишите скрипт, который откроет новое окно с характеристиками:
+1. размер 400 на 400 пикселей с желтым фоном страницы и содержит две ссылки:
+одна откроет новую страницу в главном окне;
+вторая откроет новую страницу в текущем окне.
+2. страница, которая откроется в текущем окне, должна содержать ссылку,
+закрывающую окно.</p>
+	     <center><h1>Нажмите на кнопку для вызова функции(для открытия нового окна)</h1>
+                 <button onclick="myName()" >Вызвать</button>
+		 </center>
+	 	 
+	     <SCRIPT type="text/javascript" >
+		 function myName(){
+		 var w1 = window.open("", "","height=400,width=400, scrollbars=1,menubar=1"); 
+		 w1.document.write("<BODY BGCOLOR='yellow'>");
+		 
+         var w2 = window.open("","", config ='height=400,width=400,toolbar=1,menubar=1,scrollbars=1,resizable=1,location=1,directories=1,status=1');
+		 w2.document.write("<BODY BGCOLOR='yellow'>");
+		 w2.document.write("<a href='' onClick='self.close()'>Эта ссылка закроет окно</a><p>");
+		 }
+	     </SCRIPT>
+     </body>
+</html>

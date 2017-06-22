@@ -1,0 +1,62 @@
+﻿BODY         { color: #3B4043;
+               background-color: #F8F8F8;
+               font-family:Verdana,Arial,sans-serif;
+               margin: 0px }
+
+
+TABLE       { font-size: 10pt;
+              margin: 10px 0px:
+              border: thin solid #B1BEC6;
+              border-collapse: collapse }
+TD,TH       { padding: 2px;
+              border: thin dotted #B1BEC6 }
+CAPTION     { text-align: left }
+
+
+#cheader     { width: 1010px;
+               padding: 0 20px;
+               border-bottom: thin dotted #B1BEC6 }         
+#cnavbar     { width: 250px;
+               height: 570px;
+               float: left;
+               overflow :auto;
+               margin-right: 10px }
+#cmain       { width: 760px;
+               height: 570;
+               float: left;
+               overflow:auto; 
+               padding: 5px;
+               border-left: thin dotted #B1BEC6}
+        
+#ccopyright  { width: 1010px;
+               clear:both;
+               padding: 10px 20px 0px 20px;
+               border-top: thin dotted #B1BEC6;
+               text-align: right }
+#navbar      { font-family:Arial,sans-serif;
+               font-size: 14 pt;
+               text-transform: uppercase;
+               lsit-style-tybe: none;
+               margin-left: -30px }
+#navbar LI   { padding: 5px 10px;
+               margin: 10px 0px;
+               border: thin solid #B1BEC6 }
+#navbar LI UL{ list-style-type: none;
+               margin-left: -20px;
+               margin-top: 10px }
+#navbar LI UL LI { font-size: 12px;
+                   padding: 0px;
+                   margin: 0px;
+                   border-style: none }
+DFN          { outline: thin dotted #B1BEC6 ;
+               outline-color: black;
+               outline-style: dotted }
+
+#navbar A:link,
+  #navbar A:visited  { color: #576C8C;
+               text-decoration: none }
+
+#novbar A:focus, 
+  #novbar A:hover,
+  #novbar A:active   { color: #576C8C;
+               text-decoration: underline }

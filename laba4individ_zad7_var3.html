@@ -1,0 +1,21 @@
+<HTML>
+<HEAD>
+<SCRIPT type="text/javascript">
+function Gofindit() {
+var searchfor = document.formsearch.findthis.value;
+{
+var FullSearchUrl =
+"https://yandex.ru/search/?text=" + searchfor;
+location.href = FullSearchUrl;
+}
+}
+</SCRIPT>
+</HEAD>
+<BODY>
+<FORM NAME="formsearch" action="">
+Найдите в Yandex:
+<INPUT TYPE="text" NAME="findthis" SIZE="40">
+<INPUT TYPE="button" VALUE="Искать" onClick="Gofindit()">
+</FORM>
+</BODY>
+</HTML>

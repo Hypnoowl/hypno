@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+     <head>
+        <title>Пример 2_3</title>
+    </head>
+    <body>
+         <script>
+         var month_names = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
+         var d = new Date();
+		 d>1;
+         var current_date = d.getDate();
+		 var current_month = d.getMonth();
+		  current_month++;
+         var current_year = d.getFullYear();
+		 
+alert("day - "+current_date+" ; month - " +current_month+ " ; year - "+current_year);
+if (current_date<11) {
+alert('первая декада(красный цвет)');
+document.body.style.backgroundColor = 'red';
+}
+else if (11<current_date<21) {
+alert(' Вторая декада(бежевый цвет)');
+document.body.style.backgroundColor = 'PeachPuff' ;
+}
+else {
+alert('Третья декада(коричневый цвет)');
+document.body.style.backgroundColor = 'DarkRed' ;
+}
+</script>
+    </body>
+</html>
+

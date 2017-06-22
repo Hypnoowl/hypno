@@ -1,0 +1,28 @@
+<html>
+<head>
+<SCRIPT type="text/javascript">
+var lang;
+function Gofindit() {
+var search_word = document.formsearch.search_word.value;
+if (search_word = 'ru'){
+  var FullSearchUrl = "https://www.google.com/search?hl=ru&as_q=" +   search_word + "lang" ;}
+else if(search_word = 'EN'){
+    FullSearchUrl = "https://www.google.com/search?hl=en&as_q=" + search_word + "lang" ;}
+if (search_word = 'fr'){
+    FullSearchUrl = "https://www.google.com/search?hl=fr&as_q=" + search_word + "lang" ;}
+location.href = FullSearchUrl;
+}
+
+</SCRIPT>
+</HEAD>
+<BODY>
+<FORM NAME="formsearch" action="">
+Найдите в Google:
+<br>
+со словом: <INPUT TYPE="text" NAME="search_word" SIZE="40">
+<br>
+<br>
+<INPUT TYPE="button" VALUE="Искать" onClick="Gofindit()">
+</FORM>
+</BODY>
+</HTML>
